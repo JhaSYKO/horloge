@@ -13,7 +13,8 @@ function setClock() {
     setRotation(secondHand, secondsRatio)
     setRotation(minuteHand, minutesRatio)
     setRotation(hourHand, hoursRatio)
-    
+    console.log(secondsRatio*360)
+
 }
 
 function setRotation(element,  rotationRatio) {
@@ -21,3 +22,4 @@ function setRotation(element,  rotationRatio) {
 }
 
 setClock()
+console.log()
